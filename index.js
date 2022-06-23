@@ -34,11 +34,6 @@ async function run() {
         });
                 // get all services
         
-        
-        
-
-
-
         // get methods--------------------->
 
 
