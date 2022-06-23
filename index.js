@@ -25,7 +25,7 @@ async function run() {
 
         // get methods--------------------->
 
-        app.get('api/services', async (req, res) => { 
+        app.get('/api/services', async (req, res) => { 
             const query = {};
             const cursor = servicesData.find(query);
             const services = await cursor.toArray();
