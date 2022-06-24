@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    
     "start": "node index.js",
     "start-dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +17,7 @@
     "express": "^4.18.1",
     "mongodb": "^4.7.0",
     "nodemon": "^2.0.16",
+    "vercel": "^25.1.0",
     "yarn": "^1.22.18"
   },
   "devDependencies": {
